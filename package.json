@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/web/generate-sitemap.js && tsc && vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
@@ -17,9 +17,6 @@
     "date-fns": "^2.30.0",
     "dotenv": "^17.4.1",
     "lucide-react": "^0.344.0",
-    "pg": "^8.20.0",
-    "pm2": "^6.0.14",
-    "puppeteer": "^24.39.0",
     "react": "^18.3.1",
     "react-datepicker": "^6.9.0",
     "react-dom": "^18.3.1",

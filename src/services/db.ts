@@ -317,7 +317,6 @@ const mapDriver = (d: any): Driver => {
         features: d.features || [], 
         blockedDates: d.blocked_dates || d.blockedDates || [],
         documents: safeArray<DriverDocument>(d.documents), 
-        reviews: reviews, 
         debt: Number(d.debt)
     };
 };
